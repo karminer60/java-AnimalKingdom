@@ -86,8 +86,16 @@ public class Main
             animalArrayList.add(catfish);
             animalArrayList.add(perch);
 
+
+
             System.out.println();
-		    animalList.forEach(a -> System.out.println(a));
-		
-	}
+        
+            animalList.sort((a1, a2)-> Integer.compare(a2.getYear(), a1.getYear()));
+            
+            for (AbstractAnimal a : animalList) {
+                  System.out.println(a);
+            }
+    
+    }   
+    
 }

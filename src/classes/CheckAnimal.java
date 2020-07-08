@@ -2,5 +2,5 @@ package classes;
 
 public interface CheckAnimal
 {
-    boolean test(AbstractAnimal a)
+    boolean test(AbstractAnimal a);
 }

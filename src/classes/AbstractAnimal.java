@@ -3,7 +3,7 @@ package classes;
 abstract class AbstractAnimal
 {
 	protected int yearNamed;
-}
+
 
 public AbstractAnimal(int yearNamed)
 {
@@ -41,3 +41,5 @@ public void setName(String name) {
 @Override
    public String toString() {
      return "Name: " + name + " " + "Year named/Discovered: " + yearNamed;
+}
+}
