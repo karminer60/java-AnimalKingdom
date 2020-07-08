@@ -2,7 +2,7 @@ package classes;
 
 public class Mammals extends AbstractAnimal {
     public Mammals(String name, int yearNamed) {
-        super(yearNamed, name);
+        super(name, yearNamed);
     }
 
 @Override

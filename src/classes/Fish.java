@@ -2,7 +2,7 @@ package classes;
 
 public class Fish extends AbstractAnimal {
     public Fish(String name, int yearNamed) {
-        super(yearNamed, name);
+        super(name, yearNamed);
 }
 
 @Override

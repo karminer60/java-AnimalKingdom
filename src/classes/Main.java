@@ -1,8 +1,10 @@
 package classes;
 
+import java.util.*;
+
 public class Main
 {
-    public static void print(List<AbstractAnimal> animalList, CheckAnimal tester) {
+    public static void print(ArrayList<AbstractAnimal> animalList, CheckAnimal tester) {
         for (AbstractAnimal a : animalList) {
           if (tester.test(a)) {
             System.out.println(a);
@@ -69,22 +71,22 @@ public class Main
 
 	
 
-        ArrayList<AbstractAnimal> animalArrayList = new ArrayList<AbstractAnimal>();
-            animalArrayList.add(panda);
-            animalArrayList.add(zebra);
-            animalArrayList.add(koala);
-            animalArrayList.add(sloth);
-            animalArrayList.add(armadillo);
-            animalArrayList.add(raccoon);
-            animalArrayList.add(bigfoot);
-            animalArrayList.add(pigeon);
-            animalArrayList.add(peacock);
-            animalArrayList.add(toucan);
-            animalArrayList.add(parrot);
-            animalArrayList.add(swan);
-            animalArrayList.add(salmon);
-            animalArrayList.add(catfish);
-            animalArrayList.add(perch);
+        ArrayList<AbstractAnimal> animalList = new ArrayList<AbstractAnimal>();
+            animalList.add(panda);
+            animalList.add(zebra);
+            animalList.add(koala);
+            animalList.add(sloth);
+            animalList.add(armadillo);
+            animalList.add(raccoon);
+            animalList.add(bigfoot);
+            animalList.add(pigeon);
+            animalList.add(peacock);
+            animalList.add(toucan);
+            animalList.add(parrot);
+            animalList.add(swan);
+            animalList.add(salmon);
+            animalList.add(catfish);
+            animalList.add(perch);
 
 
 
