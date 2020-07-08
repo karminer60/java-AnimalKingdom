@@ -2,6 +2,13 @@ package classes;
 
 public class Main
 {
+    public static void print(List<AbstractAnimal> animalList, CheckAnimal tester) {
+        for (AbstractAnimal a : animalList) {
+          if (tester.test(a)) {
+            System.out.println(a);
+          }
+        }
+      }
 	public static void main(String[] args)
 	{
 		System.out.println("Welcome to Lambda School's JavaModule 2");
