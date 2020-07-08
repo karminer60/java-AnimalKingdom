@@ -1,4 +1,4 @@
-package transport;
+package classes;
 
 public class Main
 {
