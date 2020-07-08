@@ -69,24 +69,25 @@ public class Main
 
 	
 
-		System.out.println("\n\n\n*** From Abstract Class ***")
-		HorseFromVehicle secretariat = new HorseFromVehicle("Secretariat", 10);
-		secretariat.addFuel(10);
-		System.out.println("Secretariat " + secretariat.getFuelLevel());
+        ArrayList<AbstractAnimal> animalArrayList = new ArrayList<AbstractAnimal>();
+            animalArrayList.add(panda);
+            animalArrayList.add(zebra);
+            animalArrayList.add(koala);
+            animalArrayList.add(sloth);
+            animalArrayList.add(armadillo);
+            animalArrayList.add(raccoon);
+            animalArrayList.add(bigfoot);
+            animalArrayList.add(pigeon);
+            animalArrayList.add(peacock);
+            animalArrayList.add(toucan);
+            animalArrayList.add(parrot);
+            animalArrayList.add(swan);
+            animalArrayList.add(salmon);
+            animalArrayList.add(catfish);
+            animalArrayList.add(perch);
 
-		HorseFromVehicle eclipse = new HorseFromVehicle("Eclipse");
-		eclipse.move(10);
-
-		HorseFromVehicle trigger = new HorseFromVehhicle("Trigger", 10);
-		HorseFromVehicle seattleSlew = new HorseFromVehicle("Seattle Slew", 10);
-		HorseFromVehicle americanPharoah = new HorseFromVehicle("American Pharoah", 10);
-
-		Auto vw = new Auto(1, "Eurovan", 2000);
-		Auto toyota = new Auto(10, "Tundra", 1998);
-		Auto honda = new Auto(5, "Accord", 20003);
-
-		vw.move();
-		vw.move(5);
+            System.out.println();
+		    animalList.forEach(a -> System.out.println(a));
 		
 	}
 }

@@ -37,3 +37,7 @@ public void setYearNamed(int yearNamed) {
 public void setName(String name) {
 	this.name = name;
 }
+
+@Override
+   public String toString() {
+     return "Name: " + name + " " + "Year named/Discovered: " + yearNamed;
