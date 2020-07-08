@@ -1,6 +1,6 @@
 package classes;
 
 public class Mammals extends AbstractAnimal {
-    public Mammal(int yearNamed, String name) {
+    public Mammal(String name, int yearNamed) {
         super(yearNamed, name)
 }
